@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FE0000160A085600CCB713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FEFFFF160A085600CCB713 /* UIKit.framework */; };
+		74FE0002160A085600CCB713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FE0001160A085600CCB713 /* Foundation.framework */; };
+		74FE0004160A085600CCB713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FE0003160A085600CCB713 /* CoreGraphics.framework */; };
+		74FE000A160A085600CCB713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0008160A085600CCB713 /* InfoPlist.strings */; };
+		74FE000C160A085600CCB713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE000B160A085600CCB713 /* main.m */; };
+		74FE0010160A085600CCB713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE000F160A085600CCB713 /* AppDelegate.m */; };
+		74FE0012160A085600CCB713 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0011160A085600CCB713 /* Default.png */; };
+		74FE0014160A085600CCB713 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0013160A085600CCB713 /* Default@2x.png */; };
+		74FE0016160A085600CCB713 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0015160A085600CCB713 /* Default-568h@2x.png */; };
+		74FE0019160A085600CCB713 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE0018160A085600CCB713 /* MasterViewController.m */; };
+		74FE001F160A085600CCB713 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FE001D160A085600CCB713 /* MasterViewController.xib */; };
+		74FE002F160A0C5A00CCB713 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FE002D160A0C5A00CCB713 /* AddressBook.framework */; };
+		74FE0030160A0C5A00CCB713 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FE002E160A0C5A00CCB713 /* AddressBookUI.framework */; };
+		74FE0033160A238E00CCB713 /* TKPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FE0032160A238D00CCB713 /* TKPeoplePickerNavigationController.m */; };
+		74FE0035160A292C00CCB713 /* iconDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0034160A292C00CCB713 /* iconDefault.png */; };
+		74FE0037160A292F00CCB713 /* iconDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74FE0036160A292F00CCB713 /* iconDefault@2x.png */; };
+		74FE003D160A2A7E00CCB713 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 74FE003C160A2A7E00CCB713 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74FE0001160A085600CCB713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74FE0003160A085600CCB713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74FE0007160A085600CCB713 /* AssignToContact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssignToContact-Info.plist"; sourceTree = "<group>"; };
+		74FE0009160A085600CCB713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74FE000B160A085600CCB713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74FE000D160A085600CCB713 /* AssignToContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssignToContact-Prefix.pch"; sourceTree = "<group>"; };
+		74FE000E160A085600CCB713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74FE000F160A085600CCB713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74FE0011160A085600CCB713 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74FE0013160A085600CCB713 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		74FE0015160A085600CCB713 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		74FE0017160A085600CCB713 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		74FE0018160A085600CCB713 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		74FE001E160A085600CCB713 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		74FE002D160A0C5A00CCB713 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		74FE002E160A0C5A00CCB713 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		74FE0031160A238D00CCB713 /* TKPeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		74FE0032160A238D00CCB713 /* TKPeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPeoplePickerNavigationController.m; sourceTree = "<group>"; };
+		74FE0034160A292C00CCB713 /* iconDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconDefault.png; path = ../iconDefault.png; sourceTree = "<group>"; };
+		74FE0036160A292F00CCB713 /* iconDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconDefault@2x.png"; path = "../iconDefault@2x.png"; sourceTree = "<group>"; };
+		74FE003C160A2A7E00CCB713 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		74FEFFFB160A085600CCB713 /* AssignToContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignToContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FEFFFF160A085600CCB713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FEFFF8160A085600CCB713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FE002F160A0C5A00CCB713 /* AddressBook.framework in Frameworks */,
+				74FE0030160A0C5A00CCB713 /* AddressBookUI.framework in Frameworks */,
+				74FE0000160A085600CCB713 /* UIKit.framework in Frameworks */,
+				74FE0002160A085600CCB713 /* Foundation.framework in Frameworks */,
+				74FE0004160A085600CCB713 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FE0005160A085600CCB713 /* AssignToContact */ = {
+			isa = PBXGroup;
+			children = (
+				74FE000E160A085600CCB713 /* AppDelegate.h */,
+				74FE000F160A085600CCB713 /* AppDelegate.m */,
+				74FE0017160A085600CCB713 /* MasterViewController.h */,
+				74FE0018160A085600CCB713 /* MasterViewController.m */,
+				74FE001D160A085600CCB713 /* MasterViewController.xib */,
+				74FE0031160A238D00CCB713 /* TKPeoplePickerNavigationController.h */,
+				74FE0032160A238D00CCB713 /* TKPeoplePickerNavigationController.m */,
+				74FE0006160A085600CCB713 /* Supporting Files */,
+			);
+			path = AssignToContact;
+			sourceTree = "<group>";
+		};
+		74FE0006160A085600CCB713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74FE0007160A085600CCB713 /* AssignToContact-Info.plist */,
+				74FE0008160A085600CCB713 /* InfoPlist.strings */,
+				74FE000B160A085600CCB713 /* main.m */,
+				74FE000D160A085600CCB713 /* AssignToContact-Prefix.pch */,
+				74FE0036160A292F00CCB713 /* iconDefault@2x.png */,
+				74FE0034160A292C00CCB713 /* iconDefault.png */,
+				74FE0011160A085600CCB713 /* Default.png */,
+				74FE0013160A085600CCB713 /* Default@2x.png */,
+				74FE0015160A085600CCB713 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74FEFFF0160A085600CCB713 = {
+			isa = PBXGroup;
+			children = (
+				74FE003C160A2A7E00CCB713 /* README.md */,
+				74FE0005160A085600CCB713 /* AssignToContact */,
+				74FEFFFE160A085600CCB713 /* Frameworks */,
+				74FEFFFC160A085600CCB713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74FEFFFC160A085600CCB713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FEFFFB160A085600CCB713 /* AssignToContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FEFFFE160A085600CCB713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74FE002D160A0C5A00CCB713 /* AddressBook.framework */,
+				74FE002E160A0C5A00CCB713 /* AddressBookUI.framework */,
+				74FEFFFF160A085600CCB713 /* UIKit.framework */,
+				74FE0001160A085600CCB713 /* Foundation.framework */,
+				74FE0003160A085600CCB713 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FEFFFA160A085600CCB713 /* AssignToContact.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FE0025160A085600CCB713 /* Build configuration list for PBXNativeTarget "AssignToContact.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				74FEFFF7160A085600CCB713 /* Sources */,
+				74FEFFF8160A085600CCB713 /* Frameworks */,
+				74FEFFF9160A085600CCB713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssignToContact.temp_caseinsensitive_rename;
+			productName = assigntocontact;
+			productReference = 74FEFFFB160A085600CCB713 /* AssignToContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FEFFF2160A085600CCB713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jongtae Ahn";
+			};
+			buildConfigurationList = 74FEFFF5160A085600CCB713 /* Build configuration list for PBXProject "AssignToContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74FEFFF0160A085600CCB713;
+			productRefGroup = 74FEFFFC160A085600CCB713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FEFFFA160A085600CCB713 /* AssignToContact.temp_caseinsensitive_rename */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74FEFFF9160A085600CCB713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FE000A160A085600CCB713 /* InfoPlist.strings in Resources */,
+				74FE0012160A085600CCB713 /* Default.png in Resources */,
+				74FE0014160A085600CCB713 /* Default@2x.png in Resources */,
+				74FE0016160A085600CCB713 /* Default-568h@2x.png in Resources */,
+				74FE001F160A085600CCB713 /* MasterViewController.xib in Resources */,
+				74FE0035160A292C00CCB713 /* iconDefault.png in Resources */,
+				74FE0037160A292F00CCB713 /* iconDefault@2x.png in Resources */,
+				74FE003D160A2A7E00CCB713 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FEFFF7160A085600CCB713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FE000C160A085600CCB713 /* main.m in Sources */,
+				74FE0010160A085600CCB713 /* AppDelegate.m in Sources */,
+				74FE0019160A085600CCB713 /* MasterViewController.m in Sources */,
+				74FE0033160A238E00CCB713 /* TKPeoplePickerNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FE0008160A085600CCB713 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FE0009160A085600CCB713 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74FE001D160A085600CCB713 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FE001E160A085600CCB713 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74FE0023160A085600CCB713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74FE0024160A085600CCB713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FE0026160A085600CCB713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "assigntocontact/AssignToContact-Prefix.pch";
+				INFOPLIST_FILE = "assigntocontact/AssignToContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AssignToContact;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74FE0027160A085600CCB713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "assigntocontact/AssignToContact-Prefix.pch";
+				INFOPLIST_FILE = "assigntocontact/AssignToContact-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = AssignToContact;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FE0025160A085600CCB713 /* Build configuration list for PBXNativeTarget "AssignToContact.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FE0026160A085600CCB713 /* Debug */,
+				74FE0027160A085600CCB713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FEFFF5160A085600CCB713 /* Build configuration list for PBXProject "AssignToContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FE0023160A085600CCB713 /* Debug */,
+				74FE0024160A085600CCB713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FEFFF2160A085600CCB713 /* Project object */;
+}
