@@ -1,12 +1,13 @@
 TKAssignToContact
 ====================
 
-Simple assign to contact for iOS.
+Simple assign to contact for iOS (like iOS6).
 This controller is modified your selected person image in contacts.
 
 ====================
 
 License
+====================
 Copyright 2012 TABKO Inc.
  
 
@@ -31,5 +32,5 @@ THE SOFTWARE.
 ====================
 
 ScreenShot
-
+====================
 <img src="https://raw.github.com/qnibus/TKAssignToContact/master/Screenshot.png">
